@@ -4,21 +4,28 @@ This project is part of a technical test.
 
 ## Features Status
 
-- Login
+### Login
 
 ✅ When the app starts, the user is taken to a public route called /login.
 
-
 ✅ The user must introduce a name before being able to enter the App.
+
 ✅ The name must be validated. Let it only introduce alphabetic characters.
+
 ✅ This name must be persisted in a way that can be used later on. If the user reloads the application it can pass directly to the dashboard.
 
 - Dashboard: Table
+ 
 ✅ Shows 10 random activities
-✅ Ability to search by name.
+
+✅ Ability to search by name
+
 ✅ Ability to order by column
+
 ✅ Button for retrieving new data from API (refresh)
-✅ Add multiple activities to favorites at the same time. 
+
+✅ Add multiple activities to favorites at the same time
+
 ✅ Ask for more than 10 random activities and show a pagination to navigate between them (max 10 activities per page)
 
 - Side Panel
