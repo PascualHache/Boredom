@@ -2,7 +2,44 @@
 
 This project is part of a technical test.
 
-## Requirements Status
+## Features Status
+
+###Login
+- When the app starts, the user is taken to a public route called /login.
+- The user must introduce a name before being able to enter the App.
+- The name must be validated. Let it only introduce alphabetic characters.
+- This name must be persisted in a way that can be used later on. If the user reloads the
+application it can pass directly to the dashboard.
+Dashboard: Table
+Show a table that retrieves activities from API and:
+- Shows 10 random activities
+- Ability to search by name.
+- Ability to order by column
+- Button for retrieving new data from API (refresh)
+- Add multiple activities to favorites at the same time. In the mockups you can find a
+possible solution: next to search input there is a favorite button. This button should be
+disabled if no rows are selected. When some rows are selected it becomes enabled and
+serves as the button to add favourites in bulk. Can you find another/better way to
+perform this task?
+- Ask for more than 10 random activities and show a pagination to navigate between
+them (max 10 activities per page). What are the things that you should take into
+account when paginating?
+Side Panel
+Open a side pane over the main dashboard. (Google Tag manager side panes are a good
+example).
+- Show a list of favourited activities and their information.
+- Let the user remove a favourite activiti from the list
+- Can you make these favourite activities persist between reloads?
+Dropdown
+Program a dropdown that lets you log out and open the Side Pane with your favorites list.
+Modal
+No mockups provided for this task. Create a call to action wherever in the dashboard you think
+suits best. This CTA should open an overlay modal over the dashboard and will provide the user
+with one random activity to do and its details.
+
+
+
+
 
 In the project directory, you can run:
 
