@@ -5,7 +5,10 @@ This project is part of a technical test.
 ## Features Status
 
 - Login
+
 ✅ When the app starts, the user is taken to a public route called /login.
+
+
 ✅ The user must introduce a name before being able to enter the App.
 ✅ The name must be validated. Let it only introduce alphabetic characters.
 ✅ This name must be persisted in a way that can be used later on. If the user reloads the application it can pass directly to the dashboard.
