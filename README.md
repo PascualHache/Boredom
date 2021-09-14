@@ -1,8 +1,8 @@
-# Getting Started with Create React App
+# Welcome to Boredom (skip) App!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is part of a technical test.
 
-## Available Scripts
+## Requirements Status
 
 In the project directory, you can run:
 
