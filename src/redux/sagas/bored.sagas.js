@@ -47,7 +47,7 @@ function* setFavs(payload) {
 
 function* getFavs(payload) {
   try {
-    const favs = JSON.parse(localStorage.getItem("favs"));
+    const favs = JSON.parse(localStorage.getItem("favs")) || [];
     yield put({ type: SUCCESS_GET_FAVS, payload: favs });
   } catch (err) {
     console.warn("Hey! There is an error on getFavs Saga", err);
@@ -56,7 +56,7 @@ function* getFavs(payload) {
 
 function* deleteFavs(payload) {
   try {
-    const favs = JSON.parse(localStorage.getItem("favs"));
+    const favs = JSON.parse(localStorage.getItem("favs")) || [];
     const cleanedFav = deleteElementFromArray(favs, payload.id);
     localStorage.setItem("favs", JSON.stringify(cleanedFav));
     yield put({ type: SUCCESS_DELETE_FAVS, payload: cleanedFav });
